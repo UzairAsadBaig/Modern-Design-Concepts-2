@@ -1,0 +1,292 @@
+/*-- Body Reset --*/
+body {
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  color: #616971;
+}
+
+/*============= TOP BAR HEADER =============*/
+.topbar{
+  background: #7aaec4;
+  height: 2.8rem;
+}
+.topbar .col-12{
+  padding: .5rem 3.8rem .5rem 0rem;
+}
+.topbar a{
+  color: white;
+  font-size: 1.1rem;
+}
+
+
+/*============= NAVIGATION =============*/
+.navbar{
+  font-size: 1.15rem;
+  padding: 0 4rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  background-color: #fff;
+}
+.navbar-brand img{
+  height: 3rem;
+}
+.nav-item{
+   padding: .5rem;
+}
+a.nav-link{
+  color: #5b5555!important;
+}
+.active a.nav-link,
+a.nav-link:hover{
+  background-color: white!important;
+  color: #7aaec4!important;
+}
+/*============= CAROUSEL =============*/
+#carouselId{
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+.carousal-inner{
+  max-height: 38rem;
+}
+
+
+/*---Change Carousel Transition Speed --*/
+.carousel-item-prev,
+.carousel-item-next,
+.carousel-item.active{
+  transition: transform .5s ease;
+}
+
+/*-- Carousel Content --*/
+.carousel-caption{
+  position: absolute;
+  top: 54%;
+  transform: translateY(-50%);
+
+}
+.bg-custom{
+  background-color: rgba(0,0,0,.4);
+  color: white;
+  border-radius: 1rem;
+}
+.carousel-caption h1{
+  font-size: 3.8rem;
+  text-shadow:  .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
+.border-primary{
+  border-top: .2rem solid #4981b3!important;
+}
+.carousel-caption h3{
+  font-size: 2.2rem;
+  text-shadow:  .1rem .1rem .3rem rgba(0, 0, 0, 1);
+}
+.btn-lg,
+.btn-md{
+  text-transform: uppercase;
+  border-radius: 0;
+  font-size: 1rem;
+  border-width: medium;
+}
+.btn-danger{
+  background-color: #ac2615;
+  border: .05rem solid #ac2615;
+}
+.btn-primary{
+  background-color: #4981b3;
+  border: .05rem solid #4981b3;
+}
+.btn-primary:hover,
+.btn-primary:focus{
+  background-color: #68a0d2!important;
+  border: .05rem solid #68a0d2!important;
+}
+.heading{
+  font-size: 2.7rem;
+  letter-spacing: .05rem;
+  
+}
+/*===== FIXED BACKGROUND IMG =====*/
+.fixed{
+  background-image: url(../img/matrix.jpg);
+  position: fixed;
+}
+.fixed-background{
+  padding: 5rem 0;
+}
+
+
+/*-- Emoji Navbar --*/
+.emoji{
+  background-image: linear-gradient(to right,#4981b3,#ac2615);
+  min-height: 0!important;
+  padding: .4rem 0!important;
+}
+.emoji .fa-plug{
+  margin: 0 auto;
+  color: white;
+  font-size: 2rem;
+}
+
+
+/*========== Emoji Container ==================== */
+
+/*============= FOOTER =============*/
+
+footer{
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0;
+ 
+}
+footer img{
+  height: 3.5rem;
+  margin: 0 0 1.5rem 0;
+}
+footer a{
+  color: white;
+}
+footer a:hover{
+  color:#1ebba3;
+}
+footer .svg-inline--fa{
+  font-size: 2rem;
+  margin: .5rem 1rem;
+}
+hr.socket{
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 1rem;
+}
+
+/*============= SOCKET =============*/
+
+
+
+
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*--- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+margin-left: 0px!important;
+margin-right: 0px!important;
+}
+
+/*--- Fix for Fixed Navbar jumping on scroll --*/
+.fixed-top  {
+ -webkit-backface-visibility: hidden;
+ 
+}
+
+/*--- Fixed Landing Page Section --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+/*--- iOS Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999!important;
+}
+.fixed {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"MEDIA QUERIES"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* >>>>>>>>>>>>>>>>>>>>Large Devices */
+@media(min-width:1200px){
+
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>Medium Devices */
+@media(min-width:992px) and (max-width:1199px){
+  .carousel-caption h1{
+    font-size: 2.8rem;
+ 
+  }
+  .carousel-caption h3{
+    font-size: 1.8rem;
+   
+  }
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>Small Devices */
+@media(min-width:768px) and (max-width:991px) {
+  .carousel-caption h1{
+    font-size: 2.5rem;
+ 
+  }
+  .carousel-caption h3{
+    font-size: 1.5rem;
+   
+  }
+  .btn-lg{
+       font-size: .95rem;
+  }
+
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>Extra Small Devices */
+@media(min-width:576px) and (max-width:767px){
+
+
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>Extra-Extra Small Devices */
+@media(max-width:575px) {
+
+}
