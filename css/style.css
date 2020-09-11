@@ -297,3 +297,13 @@ margin-right: 0px!important;
 }
 
 }
+@media(max-width:209px) {
+  .navbar{
+    padding: 0 .2rem;
+    
+  }
+  .navbar img{
+    height:1.5rem;
+  }
+  
+}
