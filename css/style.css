@@ -288,5 +288,12 @@ margin-right: 0px!important;
 
 /* >>>>>>>>>>>>>>>>>>>>Extra-Extra Small Devices */
 @media(max-width:575px) {
+.navbar{
+  padding: 0 1rem;
+  
+}
+.navbar img{
+  height:2rem;
+}
 
 }
